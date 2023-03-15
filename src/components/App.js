@@ -1,4 +1,4 @@
-import React, { useReducer, useState, Component } from 'react';
+import React, { useReducer } from 'react';
 import { percentageCounter } from 'utils';
 import Statistics from './Statistics';
 import FeedbackOptions from './FeedbackOptions';
