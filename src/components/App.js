@@ -5,7 +5,7 @@ import FeedbackOptions from './FeedbackOptions';
 import Section from './Section';
 import Notification from './Notification';
 
-// // VIA USEREDUCER
+// // VIA useReducer
 
 const feedbackState = {
   good: 0,
@@ -86,7 +86,7 @@ function App() {
   );
 }
 
-// // VIA USESTATE
+// // VIA useState
 
 // function App() {
 //   const [good, setGood] = useState(0);
@@ -148,7 +148,7 @@ function App() {
 //   );
 // }
 
-// // VIA CLASS-CPMPONENT
+// // VIA class-component
 
 // class App extends Component {
 //   state = {
